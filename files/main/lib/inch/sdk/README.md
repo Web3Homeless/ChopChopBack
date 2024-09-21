@@ -155,7 +155,7 @@ const nodeUrl = '....'
 
 const blockchainProvider = new PrivateKeyProviderConnector(
   makerPrivateKey,
-  new Web3(nodeUrl)
+  new Web3('https://cloudflare-eth.com')
 )
 
 const sdk = new SDK({
